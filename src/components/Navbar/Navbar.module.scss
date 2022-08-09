@@ -1,0 +1,30 @@
+@import "../../core/theme/colors.scss";
+@import "../../core/theme/themes.scss";
+
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $primary;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.logo {
+  width: 90px;
+  height: 90px;
+}
+
+.navLeft {
+    visibility: hidden;
+}
+
+.navRight {
+  & a {
+    font-family: "Muli", Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: $white;
+  }
+}

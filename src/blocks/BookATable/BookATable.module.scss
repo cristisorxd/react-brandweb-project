@@ -1,0 +1,63 @@
+@import "../../core/theme/colors.scss";
+@import "../../core/theme/themes.scss";
+
+.container {
+  display: flex;
+  height: 130vh;
+  background-color: $primary;
+  justify-content: space-between;
+  padding: 30vh 3vw;
+  color: $white;
+  font-size: 1rem;
+  font-family: "Muli";
+
+}
+.bookingLeft {
+    width: 40vw;
+}
+
+.title {
+    font-family: "Anglecia";
+    font-size: 4.375rem;
+    margin-bottom: 5rem;
+}
+
+
+.input {
+    width: 100%;
+    padding: 0.1rem 0;
+    color: #fff;
+    margin-bottom: 0.5rem;
+    border: none;
+    border-bottom: 1px solid  #f27013;
+    outline: none;
+    background: transparent;
+
+    &:focus {
+        border-bottom: 1px solid $white;
+    }
+}
+
+// .select {
+//     display: flex;
+//     flex-direction: r;
+//     width: 30%;
+//     padding: 0.6rem 0;
+//     font-size: 1rem;
+//     color: #fff;
+//     margin-bottom: 30px;
+//     border: none;
+//     border-bottom: 1px solid  #f27013;
+//     outline: none;
+//     background: transparent;
+
+//     &:focus {
+//         border-bottom: 1px solid $white;
+//     }
+// }
+
+.formText {
+    color: $white;
+    font-style: italic;
+    margin-bottom: 3rem;
+}

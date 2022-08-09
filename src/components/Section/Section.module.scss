@@ -1,0 +1,33 @@
+@import "../../core/theme/colors.scss";
+@import "../../core/theme/themes.scss";
+
+.sectionImg {
+  width: 770px;
+  height: 809px;
+  object-fit: cover;
+}
+
+.title {
+    font-family: "Anglecia";
+    font-size: 70px;
+    color: $primary;
+}
+
+.subtitle {
+    font-family: "Anglecia";
+    font-size: 35px;
+    color: $primary;
+}
+
+.description {
+    font-family: "Muli";
+    font-size: 18px;
+    color: gray;
+}
+
+.textSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}

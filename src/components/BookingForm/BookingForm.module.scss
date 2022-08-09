@@ -1,0 +1,23 @@
+@import "../../core/theme/colors.scss";
+@import "../../core/theme/themes.scss";
+
+.formText {
+    color: $white;
+    font-style: italic;
+    margin-bottom: 3rem;
+}
+
+.input {
+    width: 100%;
+    padding: 0.1rem 0;
+    color: #fff;
+    margin-bottom: 0.5rem;
+    border: none;
+    border-bottom: 1px solid  #f27013;
+    outline: none;
+    background: transparent;
+
+    &:focus {
+        border-bottom: 1px solid $white;
+    }
+}

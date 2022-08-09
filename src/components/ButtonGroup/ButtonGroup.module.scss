@@ -1,0 +1,30 @@
+@import "../../core/theme/colors.scss";
+@import "../../core/theme/themes.scss";
+
+.first {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 310px;
+      height: 70px;
+      background-color: $white;
+      color: $primary;
+      border:none;
+      font-family: "Muli";
+      font-size: 1.1rem;
+      cursor: pointer;
+    }
+ .second {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      width: 310px;
+      height: 70px;
+      background-color: $primary;
+      color: $white;
+      border: 1px solid $white;
+      font-family: "Muli";
+      font-size: 1.1rem;
+      cursor: pointer;
+    }

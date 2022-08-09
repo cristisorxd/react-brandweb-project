@@ -1,0 +1,49 @@
+@import "../../core/theme/colors.scss";
+
+.headerContainer {
+  height: 100vh;
+  background-color: $primary;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.headerLeft {
+  text-align: center;
+  align-self: flex-start;
+
+  & h3 {
+    font-family: "Muli";
+    font-size: 1.4rem;
+    color: $white;
+  }
+
+  & h1 {
+    font-family: "Anglecia";
+    font-size: 5.625rem;
+    color: $white;
+    margin: 0;
+  }
+
+  & h2 {
+    font-family: "Anglecia Italic";
+    font-size: 1.875rem;
+    color: $white;
+  }
+}
+
+.headerRight {
+  margin-top: 20vh;
+  margin-right: 3vw;
+}
+
+.headerLogo {
+  margin-top: -40px;
+  color: $white;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
